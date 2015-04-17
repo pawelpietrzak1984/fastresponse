@@ -59,6 +59,28 @@
 					</formats>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>3.4</version>
+				<configuration>
+					<!-- PMD options -->
+					<linkXref>true</linkXref>
+					<sourceEncoding>UTF-8</sourceEncoding>
+					<targetJdk>1.8</targetJdk>
+					<aggregate>true</aggregate>
+					<format>xml</format>
+					<rulesets>
+						<ruleset>${basedir}${file.separator}pmd-rules.xml</ruleset>
+					</rulesets>
+					<!-- CPD options -->
+					<minimumTokens>50</minimumTokens>
+					<ignoreIdentifiers>true</ignoreIdentifiers>
+					
+
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
