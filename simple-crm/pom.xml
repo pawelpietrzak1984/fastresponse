@@ -72,8 +72,8 @@
 					<aggregate>true</aggregate>
 					<format>xml</format>
 					<rulesets>
-<!-- 						<ruleset>${basedir}${file.separator}pmd-rules.xml</ruleset> -->
-						<ruleset>pmd-rules.xml</ruleset>
+						<ruleset>${basedir}${file.separator}pmd-rules.xml</ruleset>
+<!-- 						<ruleset>pmd-rules.xml</ruleset> -->
 					</rulesets>
 					<!-- CPD options -->
 					<minimumTokens>50</minimumTokens>
