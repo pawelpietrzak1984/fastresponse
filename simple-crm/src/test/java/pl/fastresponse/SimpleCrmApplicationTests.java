@@ -1,7 +1,5 @@
 package pl.fastresponse;
 
-import static org.junit.Assert.assertTrue;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -15,7 +13,6 @@ public class SimpleCrmApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assertTrue("XXX",true);
 	}
 
 }
