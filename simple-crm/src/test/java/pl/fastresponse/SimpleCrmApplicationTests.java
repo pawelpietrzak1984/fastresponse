@@ -1,5 +1,7 @@
 package pl.fastresponse;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.SpringApplicationConfiguration;
@@ -13,6 +15,14 @@ public class SimpleCrmApplicationTests {
 
 	@Test
 	public void contextLoads() {
+	}
+	
+	@Test
+	public void testShowUser(){
+		
+		UserService us = new UserService();
+		
+		assertEquals("Should have same value", "XXX", us.showUser());
 	}
 
 }
