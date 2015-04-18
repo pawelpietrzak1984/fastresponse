@@ -11,12 +11,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = SimpleCrmApplication.class)
 @WebAppConfiguration
-public class SimpleCrmApplicationTests {
+public class UserServiceTest {
 
-	@Test
-	public void contextLoads() {
-	}
-	
 	@Test
 	public void testShowUser(){
 		
