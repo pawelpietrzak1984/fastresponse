@@ -10,8 +10,6 @@ public class SimpleCrmApplication {
 	
     public static void main(String[] args) {
     	
-    	String unused2 = "as";
-    	
         SpringApplication.run(SimpleCrmApplication.class, args);
     }
 }
