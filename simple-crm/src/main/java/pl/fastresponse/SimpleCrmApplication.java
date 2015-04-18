@@ -9,6 +9,7 @@ public class SimpleCrmApplication {
 	private String unused;
 	
     public static void main(String[] args) {
+    	String unused2;
         SpringApplication.run(SimpleCrmApplication.class, args);
     }
 }
