@@ -66,11 +66,11 @@
 						</goals>
 						<configuration>
 							<skip>false</skip>
-							<includes>
-								<include>**/*.*</include>
-							</includes>
+<!-- 							<includes> -->
+<!-- 								<include>**/*.*</include> -->
+<!-- 							</includes> -->
 							<excludes>
-								<exclude>%regex[.*integration.*]</exclude>
+								<exclude>**/integration/**</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -83,7 +83,8 @@
 						<configuration>
 							<skip>false</skip>
 							<includes>
-								<include>%regex[.*integration.*]</include>
+								<include>**/integration/**</include>
+<!-- 								<include>%regex[.*integration.*]</include> -->
 							</includes>
 						</configuration>
 					</execution>
