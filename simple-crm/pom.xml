@@ -71,6 +71,7 @@
 							<skip>false</skip>
 							<excludes>
 								<exclude>**/integration/**</exclude>
+								<exclude>**/performance/**</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -84,6 +85,7 @@
 							<skip>false</skip>
 							<includes>
 								<include>**/integration/**</include>
+								<exclude>**/performance/**</exclude>
 							</includes>
 						</configuration>
 					</execution>
