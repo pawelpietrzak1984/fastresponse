@@ -57,6 +57,9 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skip>true</skip>
+				</configuration>
 				<executions>
 					<execution>
 						<id>unit-tests</id>
@@ -66,9 +69,6 @@
 						</goals>
 						<configuration>
 							<skip>false</skip>
-<!-- 							<includes> -->
-<!-- 								<include>**/*.*</include> -->
-<!-- 							</includes> -->
 							<excludes>
 								<exclude>**/integration/**</exclude>
 							</excludes>
@@ -84,11 +84,9 @@
 							<skip>false</skip>
 							<includes>
 								<include>**/integration/**</include>
-<!-- 								<include>%regex[.*integration.*]</include> -->
 							</includes>
 						</configuration>
 					</execution>
-
 				</executions>
 
 			</plugin>
