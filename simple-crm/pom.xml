@@ -67,10 +67,10 @@
 						<configuration>
 							<skip>false</skip>
 							<includes>
-								<include>**/When*.*</include>
+								<include>**/*.*</include>
 							</includes>
 							<excludes>
-								<exclude>%regex[.*integration.*When.*</exclude>
+								<exclude>%regex[.*integration.*]</exclude>
 							</excludes>
 						</configuration>
 					</execution>
@@ -83,7 +83,7 @@
 						<configuration>
 							<skip>false</skip>
 							<includes>
-								<include>%regex[.*integration.*When.*</include>
+								<include>%regex[.*integration.*]</include>
 							</includes>
 						</configuration>
 					</execution>
